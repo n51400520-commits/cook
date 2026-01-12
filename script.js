@@ -48,3 +48,24 @@ shareBtn.addEventListener("click", () => {
 
 // Первичная отрисовка
 renderIngredients();
+const recipes = {
+  ],
+  japanese_curry: [
+    { name: "Тауық еті", amount: 300, unit: "г" },
+    { name: "Картоп", amount: 2, unit: "дана" },
+    { name: "Сәбіз", amount: 1, unit: "дана" },
+    { name: "Curry roux", amount: 100, unit: "г" }
+  ],
+  omelet: [
+    { name: "Жұмыртқа", amount: 3, unit: "дана" },
+    { name: "Сүт", amount: 50, unit: "мл" },
+    { name: "Тұз", amount: 1, unit: "шымшым" },
+    { name: "Май", amount: 20, unit: "г" }
+  ],
+  onigiri: [
+    { name: "Күріш", amount: 200, unit: "г" },
+    { name: "Нори", amount: 2, unit: "парақ" },
+    { name: "Толтыру (тунец/лосось)", amount: 50, unit: "г" }
+  ]
+};
+
