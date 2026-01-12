@@ -26,13 +26,13 @@ function renderIngredients() {
   });
 }
 
-// Событие изменения порций
+
 servingsInput.addEventListener("input", () => {
   localStorage.setItem("servings", servingsInput.value);
   renderIngredients();
 });
 
-// Кнопка «Бөлісу»
+
 shareBtn.addEventListener("click", () => {
   let text = "🍲 Рецепт:\n";
   const servings = servingsInput.value;
