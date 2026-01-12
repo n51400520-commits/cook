@@ -1,4 +1,4 @@
-// Список рецептов
+
 const recipes = {
   plov: [
     { name: "Ет (қой)", amount: 500, unit: "г" },
@@ -30,13 +30,13 @@ const recipes = {
   ]
 };
 
-// Элементы DOM
+
 const grid = document.getElementById("ingredientsGrid");
 const servingsInput = document.getElementById("servings");
 const dishSelect = document.getElementById("dish");
 const shareBtn = document.getElementById("shareBtn");
 
-// Загружаем сохранённые данные
+
 if (localStorage.getItem("servings")) {
   servingsInput.value = localStorage.getItem("servings");
 }
@@ -44,7 +44,7 @@ if (localStorage.getItem("dish")) {
   dishSelect.value = localStorage.getItem("dish");
 }
 
-// Функция отрисовки ингредиентов
+
 function renderIngredients() {
   grid.innerHTML = "";
   const servings = parseInt(servingsInput.value);
